@@ -3,7 +3,7 @@ const transformUrl = (url) => {
         if (import.meta.env.DEV) {
             return `${url}`;
         } else {
-            return `https://github.com/fbn-org/hudson-blog/blob/main${url}?raw=true`;
+            return `https://github.com/colinhartigan/blog/blob/main${url}?raw=true`;
         }
     } else {
         return url;
