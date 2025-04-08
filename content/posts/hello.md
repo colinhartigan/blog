@@ -30,7 +30,7 @@ In February I went skiing with Will, Jessica, and Owen, and we met up with our f
 
 #### NYC
 
-2 weeks later I went to NYC with Nick, Jessica, and Dawson. Nick and I were on a mission to catch the live premiere and Q&A for the new season Jet Lag: The Game. We weren't able to get tickets ahead of time so we had to gamble on the standby line and after almost 3 hours of waiting it paid off! It was super cool to see the guys I've spent so many of my Wednesdays watching (and Tom Scott!!) in person. NYC is a really cool city and it was great to visit for the first time since middle school.
+2 weeks later I went to NYC with Nick, Jessica, and Dawson. Nick and I were on a mission to catch the live premiere and Q&A for the new season Jet Lag: The Game. We weren't able to get tickets ahead of time so we had to gamble on the standby line, and after almost 3 hours of waiting, it paid off! It was super cool to see the guys I've spent so many of my Wednesdays watching (and Tom Scott!!) in person. NYC is a really cool city and it was great to visit for the first time since middle school.
 
 ![jltg](/content/images/hello/jltg.jpeg)
 
@@ -44,9 +44,9 @@ Then, we drove to Big Bend with a pit stop at a state park with some sand dunes.
 
 Arriving at our campsite in Big Bend was really cool. It was like 1am and completely dark, but because it was so remote, the stars were super bright. Setting up our tents for the first time was a real challenge, but we were rewarded by the incredible views of the basin the next morning. Big Bend has some great hikes and we got so lucky with the weather not being too bad.
 
-After a couple days, we drove to the Guadalupe Mountains and had our first shower in 4 days. We did the Guadalupe peak hike in just under 5 hours which I'm really proud of. When we reached the peak, this super athletic dude was finishing his **run to the peak** and was super excited. We think he set the new FKT. He was a search and rescue volunteer in NM and said he was squeezing in a quick run after working all morning on a cave rescue. He's one of the coolest people I've ever met.
+After a couple days, we drove to the Guadalupe Mountains and had our first shower in 4 days. We did the Guadalupe peak hike in just under 5 hours which I'm really proud of. When we reached the peak, this super athletic dude was finishing his **sub-hour run to the peak** and was super excited. We think he set the new FKT. He was a search and rescue volunteer in NM and said he was squeezing in a quick run after working all morning on a cave rescue. He's one of the coolest people I've ever met.
 
-Finally, we drove to the Carlsbad Caverns. Caves are so cool and terrifying, but the way the NPS set up this park is very accessible. Big ups.
+Finally, we drove to the Carlsbad Caverns. Caves are so cool but I could never be a spelunker.
 
 On our drive home we stopped in Dallas again to get some BBQ with Brennan and Cassie.
 
@@ -62,8 +62,8 @@ I remember feeling similarly nervous about being in Raleigh last year, but I met
 
 ## Observation
 
-I really like listening. In one of Wintergatan's videos during the MMX days, he said something along the lines of "being the dumbest person in the room means you get to learn the most." That's stuck with me for YEARS and I think it really captures my mindset and personality.
+I really like listening and learning. In one of Wintergatan's videos during the MMX days, he said something along the lines of "being the dumbest person in the room means you get to learn the most." It's not even a super epiphanic thought but it's stuck with me for years!
 
 ---
 
-So yeah, this is my blog. It felt good to dump and write for a little bit. Hopefully I keep up with this!
+It felt good to dump and write for a little bit. Hopefully I keep up with this!

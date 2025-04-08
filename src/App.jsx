@@ -6,7 +6,7 @@ import Post from "./pages/Post";
 function App() {
     return (
         <>
-            <div className='min-w-screen min-h-screen h-screen w-screen bg-white flex flex-col justify-start items-center gap-5'>
+            <div className='min-w-screen min-h-screen h-screen w-screen bg-zinc-50 flex flex-col justify-start items-center gap-5'>
                 <div className=' w-full h-auto flex flex-col justify-center items-center overflow-hidden'>
                     <Nav />
 

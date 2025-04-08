@@ -42,8 +42,9 @@ export default function HudsonPost({}) {
 
     return (
         <div className='w-full overflow-auto flex flex-col items-center justify-start'>
-            <div className='max-w-screen-md min-w-screen-md h-auto flex flex-col items-center justify-start px-5 mb-5'>
-                <p className='w-full text-start'>{dayjs(date).format("MMMM D, YYYY")}</p>
+            <div className='max-w-screen-md min-w-screen-md h-auto flex flex-col items-center justify-start px-5 my-5'>
+                <p className='w-full text-center font-normal text-xl italic'>{dayjs(date).format("MMMM D, YYYY")}</p>
+                <div className='w-2/3 h-[1px] bg-neutral-900 rounded-full my-4' />
                 <Markdown
                     className='prose prose-lg prose-neutral mt-2 w-full h-auto'
                     remarkPlugins={[remarkGfm]}
