@@ -12,4 +12,5 @@ export default {
         require("@tailwindcss/typography"),
         // ...
     ],
+    darkMode: "class",
 };

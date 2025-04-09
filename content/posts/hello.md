@@ -1,6 +1,6 @@
-| date     | title |
-| -------- | ----- |
-| 4/5/2025 | Hi    |
+| date     | title | image                                |
+| -------- | ----- | ------------------------------------ |
+| 4/5/2025 | Hi    | /content/images/hello/sandhills.jpeg |
 
 # Hi
 
@@ -66,4 +66,4 @@ I really like listening and learning. In one of Wintergatan's videos during the 
 
 ---
 
-It felt good to dump and write for a little bit. Hopefully I keep up with this!
+Wow it feels good to write and gush about what's going on in my life. Hopefully I keep up with this!

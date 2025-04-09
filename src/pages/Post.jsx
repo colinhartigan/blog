@@ -6,11 +6,11 @@ import rehypeRaw from "rehype-raw";
 import remarkGfm from "remark-gfm";
 import { mdTableJson, transformUrl } from "../utils/utils";
 
-export default function HudsonPost({}) {
+export default function Post({}) {
     const postId = useParams().postId;
 
-    const [content, setContent] = useState("# hello");
-    const [date, setDate] = useState("");
+    const [content, setContent] = useState("");
+    const [date, setDate] = useState("4/18/2004");
 
     useEffect(() => {
         const files = Object.values(import.meta.glob("/content/posts/*.md", { eager: true, import: "default" }));
@@ -41,8 +41,8 @@ export default function HudsonPost({}) {
     }, [postId]);
 
     return (
-        <div className='w-full overflow-auto flex flex-col items-center justify-start'>
-            <div className='max-w-screen-md min-w-screen-md h-auto flex flex-col items-center justify-start px-5 my-5'>
+        <div className='w-full h-auto flex flex-col items-center justify-start'>
+            <div className='max-w-screen-md min-w-screen-md h-full flex flex-col items-center justify-start px-5 my-5'>
                 <p className='w-full text-center font-normal text-xl italic'>{dayjs(date).format("MMMM D, YYYY")}</p>
                 <div className='w-2/3 h-[1px] bg-neutral-900 rounded-full my-4' />
                 <Markdown

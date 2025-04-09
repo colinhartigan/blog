@@ -6,8 +6,8 @@ import Post from "./pages/Post";
 function App() {
     return (
         <>
-            <div className='min-w-screen min-h-screen h-screen w-screen bg-zinc-50 flex flex-col justify-start items-center gap-5'>
-                <div className=' w-full h-auto flex flex-col justify-center items-center overflow-hidden'>
+            <div className='min-w-screen min-h-screen h-screen w-screen max-h-screen flex flex-col justify-start items-center gap-5 bg-stone-50'>
+                <div className=' w-full h-full flex flex-col justify-start items-center overflow-auto'>
                     <Nav />
 
                     <Routes>
