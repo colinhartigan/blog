@@ -8,13 +8,19 @@ function App() {
         <>
             <div className='min-w-screen min-h-screen h-screen w-screen max-h-screen flex flex-col justify-start items-center gap-5 bg-stone-50'>
                 <div className=' w-full h-full flex flex-col justify-start items-center overflow-auto'>
-                    <Nav />
-
                     <Routes>
                         <Route index element={<Navigate to='/post' />} />
                         <Route path='post'>
                             <Route index element={<Home />} />
-                            <Route path=':postId' element={<Post />} />
+                            <Route
+                                path=':postId'
+                                element={
+                                    <>
+                                        <Nav />
+                                        <Post />
+                                    </>
+                                }
+                            />
                         </Route>
                     </Routes>
                 </div>

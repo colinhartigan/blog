@@ -54,9 +54,9 @@ export default function Home({}) {
 
     return (
         <div className='w-full h-full flex flex-col justify-center items-center gap-5 p-5'>
-            {/* <div className='w-full h-auto flex flex-col justify-start items-center gap-1'>
-                <p className='w-auto font-bold text-5xl'></p>
-            </div> */}
+            <div className='w-full h-auto flex flex-col justify-start items-center gap-1 mb-5'>
+                <p className='w-auto font-bold text-5xl'>Colin&apos;s blog</p>
+            </div>
 
             {posts?.length > 0 && (
                 <div className='w-auto max-w-screen-sm h-auto flex flex-col justify-start items-center gap-1 overflow-hidden'>
