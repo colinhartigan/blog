@@ -1,6 +1,6 @@
-| date     | title | image                                |
-| -------- | ----- | ------------------------------------ |
-| 4/5/2025 | Hi    | /content/images/hello/sandhills.jpeg |
+| date     | title | blurb               | image                                |
+| -------- | ----- | ------------------- | ------------------------------------ |
+| 4/5/2025 | Hi    | what is it all for? | /content/images/hello/sandhills.jpeg |
 
 # Hi
 
