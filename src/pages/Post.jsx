@@ -42,7 +42,7 @@ export default function Post({}) {
 
     return (
         <div className='w-full h-auto flex flex-col items-center justify-start'>
-            <div className='max-w-screen-md min-w-screen-md h-full flex flex-col items-center justify-start px-5 my-5'>
+            <div className='max-w-screen-md min-w-screen-md h-full flex flex-col items-center justify-start px-5 my-5 mb-10'>
                 <p className='w-full text-left font-normal text-xl italic'>{dayjs(date).format("MMMM D, YYYY")}</p>
                 {/* <div className='w-1/3 h-[1px] bg-stone-200 rounded-full' /> */}
                 <Markdown

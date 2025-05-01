@@ -55,7 +55,7 @@ export default function Home({}) {
     return (
         <div className='w-full h-full flex flex-col justify-center items-center gap-5 p-5'>
             <div className='w-full h-auto flex flex-col justify-start items-center gap-1 mb-5'>
-                <p className='w-auto font-bold text-5xl'>Colin&apos;s blog</p>
+                <p className={`w-auto font-bold text-5xl ${hoveredPost === -1 ? "z-20" : "z-0"}`}>Colin&apos;s blog</p>
             </div>
 
             {posts?.length > 0 && (
@@ -80,19 +80,19 @@ export default function Home({}) {
                                 />
                                 <motion.div
                                     key={index}
-                                    className='w-auto h-auto flex flex-row items-center justify-center gap-5 z-10'
+                                    className='w-full h-auto flex flex-row items-center justify-center gap-5 z-10'
                                     onMouseEnter={() => setHoveredPost(index)}
                                     onMouseLeave={() => setHoveredPost(-1)}
                                     animate={{
                                         opacity:
                                             (index === hoveredPost && hoveredPost !== -1) || hoveredPost === -1 ? 1 : 0,
-                                        color: index === hoveredPost ? "white" : "black",
+                                        backgroundColor: index === hoveredPost ? "white" : "transparent",
                                     }}
-                                    transition={{ duration: 0.1 }}
+                                    transition={{ duration: 0.05 }}
                                 >
                                     <NavLink
                                         to={`/post/${entry.id}`}
-                                        className='w-auto h-auto flex flex-row justify-start items-start gap-3'
+                                        className='w-full h-auto flex flex-row justify-start items-start gap-3'
                                         key={index}
                                     >
                                         <p className='font-bold'>{dayjs(entry.date).format("MM/DD/YY")}</p>
