@@ -20,7 +20,6 @@ export default function Post({}) {
 
     useEffect(() => {
         const currentIndex = posts.findIndex((entry) => entry.title === postId);
-        console.log("Current index:", currentIndex);
         if (currentIndex !== -1) {
             setNextPost(posts[currentIndex - 1] || null);
             setPrevPost(posts[currentIndex + 1] || null);
