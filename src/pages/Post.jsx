@@ -1,48 +1,43 @@
 import dayjs from "dayjs";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
+import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 import Markdown from "react-markdown";
-import { useParams } from "react-router";
+import { NavLink, useParams } from "react-router";
 import rehypeRaw from "rehype-raw";
 import remarkGfm from "remark-gfm";
-import { mdTableJson, transformUrl } from "../utils/utils";
+import { PostContext } from "../utils/PostContext";
+import { transformUrl } from "../utils/utils";
 
 export default function Post({}) {
+    const { posts } = useContext(PostContext);
     const postId = useParams().postId;
 
     const [content, setContent] = useState("");
     const [date, setDate] = useState("4/18/2004");
 
+    const [nextPost, setNextPost] = useState(null);
+    const [prevPost, setPrevPost] = useState(null);
+
     useEffect(() => {
-        const files = Object.values(import.meta.glob("/content/posts/*.md", { eager: true, import: "default" }));
-
-        async function fetchContent() {
-            const postIdDecoded = decodeURIComponent(postId);
-            for (let path of files) {
-                fetch(path)
-                    .then((res) => res.text())
-                    .then((text) => {
-                        // the first line is the date and the second line is the title
-                        const lines = text.split("\n");
-                        const metadata = lines.slice(0, 4).join("\n");
-
-                        const json = mdTableJson(metadata);
-                        const date = json.date;
-                        const title = json.title;
-
-                        if (title === postIdDecoded) {
-                            setContent(lines.slice(4).join("\n"));
-                            setDate(date);
-                        }
-                    });
-            }
+        const currentIndex = posts.findIndex((entry) => entry.title === postId);
+        console.log("Current index:", currentIndex);
+        if (currentIndex !== -1) {
+            setNextPost(posts[currentIndex - 1] || null);
+            setPrevPost(posts[currentIndex + 1] || null);
         }
+    }, [postId, posts]);
 
-        fetchContent();
-    }, [postId]);
+    useEffect(() => {
+        const post = posts.find((entry) => entry.title === postId);
+        if (post) {
+            post.loadContent(setContent, setDate);
+            window.scrollTo(0, 0);
+        }
+    }, [postId, posts]);
 
     return (
         <div className='w-full h-auto flex flex-col items-center justify-start'>
-            <div className='max-w-screen-md min-w-screen-md h-full flex flex-col items-center justify-start px-5 my-5 mb-10'>
+            <div className='max-w-screen-md min-w-screen-md h-full flex flex-col items-center justify-start px-5 my-5 mb-16'>
                 <p className='w-full text-left font-normal text-xl italic'>{dayjs(date).format("MMMM D, YYYY")}</p>
                 {/* <div className='w-1/3 h-[1px] bg-stone-200 rounded-full' /> */}
                 <Markdown
@@ -53,6 +48,44 @@ export default function Post({}) {
                 >
                     {content}
                 </Markdown>
+            </div>
+
+            <div className='w-full max-w-screen-md h-auto flex flex-row items-center justify-between gap-5 mb-10'>
+                <NavLink
+                    className='cursor-pointer flex flex-row items-center justify-start gap-2'
+                    to={`/post/${prevPost?.title}`}
+                >
+                    {prevPost && (
+                        <>
+                            <MdKeyboardArrowLeft size={24} />
+                            <div className='flex flex-col items-start justify-start'>
+                                <p className='text-md'>{prevPost?.title}</p>
+                                <p className='text-xs italic'>
+                                    {dayjs.duration(-dayjs(date).diff(prevPost?.date)).humanize()} prior
+                                </p>
+                            </div>
+                        </>
+                    )}
+                </NavLink>
+
+                {/* <p className='text-sm font-normal italic'>Thank you for reading my blog</p> */}
+
+                <NavLink
+                    className='cursor-pointer flex flex-row items-center justify-start gap-2'
+                    to={`/post/${nextPost?.title}`}
+                >
+                    {nextPost && (
+                        <>
+                            <div className='flex flex-col items-start justify-start'>
+                                <p className='text-md'>{nextPost?.title}</p>
+                                <p className='text-xs italic'>
+                                    {dayjs.duration(-dayjs(date).diff(nextPost?.date)).humanize()} after
+                                </p>
+                            </div>
+                            <MdKeyboardArrowRight size={24} />
+                        </>
+                    )}
+                </NavLink>
             </div>
         </div>
     );

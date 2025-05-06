@@ -26,9 +26,9 @@ During the semester, I think I have a habit of tunnel visioning on campus and ge
 
 Finally, also last night, the semesterly midnight bud happened. I love this tradition. It's my favorite manifestation of this school's culture and history. Something about a couple thousand kids yelling _"fight drink win get naked, drink some more, get more naked"_ outside the abandoned dining hall really speaks to me. I hadn't gone to one in a couple semesters but I will definitely be out there again next semester. (Also thank you Ryan for taking my Tech roof virginity).
 
-When I was planning what to write for this post I thought I'd come up with some insightful epiphany about exercising free will, but I think I just need to remember to slow down sometimes.
+When I was planning what to write for this post I thought I'd come up with some insightful epiphany about the importance doing stuff for myself on my own time, but that's really it. I just forget to do that.
 
 ---
 
 (edit from a few days later)
-I realized that during study abroad I had many of these habits that I'm trying to build here. It was deifnitely a combination of the lighter class load and accessibility of the area, but hell, I'd go explore some random village every Wednesday and still have downtime in my dorm! Obviously it's not as easy to do that here, but regardless, I need to get off campus more.
+I realized that during study abroad I had many of these habits that I'm trying to build here. It was deifnitely a combination of the lighter class load and accessibility of where I was, but hell, I'd go explore some random village after class every Wednesday and still have downtime in my dorm! Obviously it's not as easy to do that here, but regardless, I need to get off campus more.

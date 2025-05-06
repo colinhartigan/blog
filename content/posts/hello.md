@@ -8,7 +8,7 @@ If you're reading this, congratulations! I'm not planning on telling anyone abou
 
 I'm starting a blog. It totally feels like I'm bandwagoning Hudson and Eric on their awesome blogs (www.grillhudson.com and Eric's _Taipei Tales_ newsletter) but I do love the idea of having a a record and reflection of what's going on in my life.
 
-I don't really know exactly what I want to write about here and the content will probably change with whatever's been going on in my life. I'm probably overthinking it. I spent like 20 minutes finding a good font for this thing. Anyways...
+I don't really know exactly what I want to write about here and the content will probably change with whatever's been going on in my life. I'm probably overthinking it. I spent like 20 minutes finding a good font for this thing. Anyways, here's a dump of this semester...
 
 ## Junior year is almost over???
 

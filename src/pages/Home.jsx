@@ -1,56 +1,13 @@
 import dayjs from "dayjs";
 import { motion } from "motion/react";
-import React, { useEffect, useState } from "react";
+import React, { useContext, useState } from "react";
 import { NavLink } from "react-router";
-import { mdTableJson, transformUrl } from "../utils/utils";
+import { PostContext } from "../utils/PostContext";
+import { transformUrl } from "../utils/utils";
 
 export default function Home({}) {
-    const [posts, setPosts] = useState([]);
     const [hoveredPost, setHoveredPost] = useState(-1);
-
-    useEffect(() => {
-        fetchEntries().then((entries) => {
-            setPosts(entries);
-        });
-
-        async function process(file) {
-            return new Promise((resolve) => {
-                fetch(file)
-                    .then((res) => res.text())
-                    .then((text) => {
-                        // the first line is the date and the second line is the title
-                        const lines = text.split("\n");
-                        const metadata = lines.slice(0, 4).join("\n");
-
-                        const json = mdTableJson(metadata);
-                        console.log(json);
-
-                        resolve(json);
-                    });
-            });
-        }
-
-        async function fetchEntries() {
-            const files = Object.values(import.meta.glob("/content/posts/*.md", { eager: true, import: "default" }));
-            let entries = [];
-            for (let path of files) {
-                await process(path).then((entry) => {
-                    // entry.id = path.split("/").pop().split(".")[0];
-                    entry.id = encodeURIComponent(entry.title);
-                    entries.push(entry);
-                });
-            }
-
-            // sort entries by date
-            entries.sort((a, b) => {
-                const dateA = new Date(a.date);
-                const dateB = new Date(b.date);
-                return dateB - dateA;
-            });
-
-            return entries;
-        }
-    }, []);
+    const { posts } = useContext(PostContext);
 
     return (
         <div className='w-full h-full flex flex-col justify-center items-center gap-5 p-5'>
