@@ -29,6 +29,7 @@ export default function Post({}) {
 
     useEffect(() => {
         const post = posts.find((entry) => entry.title === postId);
+        setContent("");
         if (post) {
             post.loadContent(setContent, setDate);
             window.scrollTo(0, 0);
@@ -37,7 +38,8 @@ export default function Post({}) {
 
     return (
         <div className='w-full h-auto flex flex-col items-center justify-start'>
-            <div className='max-w-screen-md min-w-screen-md h-full flex flex-col items-center justify-start px-5 my-5 mb-16'>
+            {/* post content */}
+            <div className='max-w-screen-md min-w-screen-md h-full flex flex-col items-center justify-start px-5 mb-16'>
                 <p className='w-full text-left font-normal text-xl italic'>{dayjs(date).format("MMMM D, YYYY")}</p>
                 {/* <div className='w-1/3 h-[1px] bg-stone-200 rounded-full' /> */}
                 <Markdown
@@ -50,7 +52,8 @@ export default function Post({}) {
                 </Markdown>
             </div>
 
-            <div className='w-full max-w-screen-md h-auto flex flex-row items-center justify-between gap-5 mb-10'>
+            {/* footer */}
+            <div className='w-full max-w-screen-md h-auto flex flex-row items-center justify-between gap-5 mb-10 px-3'>
                 <NavLink
                     className='cursor-pointer flex flex-row items-center justify-start gap-2'
                     to={`/post/${prevPost?.title}`}
