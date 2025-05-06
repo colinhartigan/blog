@@ -28,11 +28,9 @@ export default function Post({}) {
 
     useEffect(() => {
         const post = posts.find((entry) => entry.title === postId);
-        setContent("");
-        if (post) {
-            post.loadContent(setContent, setDate);
-            window.scrollTo(0, 0);
-        }
+        setContent(post?.content || "");
+        setDate(post?.date || "4/18/2004");
+        window.scrollTo(0, 0);
     }, [postId, posts]);
 
     return (
@@ -78,7 +76,7 @@ export default function Post({}) {
                 >
                     {nextPost && (
                         <>
-                            <div className='flex flex-col items-start justify-start'>
+                            <div className='flex flex-col items-end justify-start'>
                                 <p className='text-md'>{nextPost?.title}</p>
                                 <p className='text-xs italic'>
                                     {dayjs.duration(-dayjs(date).diff(nextPost?.date)).humanize()} after

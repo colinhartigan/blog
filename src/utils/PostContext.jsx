@@ -23,30 +23,11 @@ function PostProvider({ children }) {
                         let json = mdTableJson(metadata);
                         console.log(json);
 
-                        json.loadContent = (setContent, setDate) => {
-                            const files = Object.values(
-                                import.meta.glob("/content/posts/*.md", { eager: true, import: "default" })
-                            );
-                            const postIdDecoded = decodeURIComponent(json.title);
-                            for (let path of files) {
-                                fetch(path)
-                                    .then((res) => res.text())
-                                    .then((text) => {
-                                        // the first line is the date and the second line is the title
-                                        const lines = text.split("\n");
-                                        const metadata = lines.slice(0, 4).join("\n");
+                        json.content = lines.slice(4).join("\n");
 
-                                        const json = mdTableJson(metadata);
-                                        const date = json.date;
-                                        const title = json.title;
+                        // extract the first 40 characters after the 5th line
+                        json.excerpt = lines.slice(5).join("\n").split(" ").slice(0, 30).join(" ") + "...";
 
-                                        if (title === postIdDecoded) {
-                                            setContent(lines.slice(4).join("\n"));
-                                            setDate(date);
-                                        }
-                                    });
-                            }
-                        };
                         resolve(json);
                     });
             });
