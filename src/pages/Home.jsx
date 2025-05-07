@@ -12,7 +12,7 @@ export default function Home({}) {
     const { posts } = useContext(PostContext);
 
     return (
-        <div className='w-full h-screen flex flex-col justify-center items-center gap-5 p-5 overflow-hidden'>
+        <div className='w-full h-screen flex flex-col justify-center items-center gap-5 p-5 overflow-hidden box-border'>
             <div className='w-full h-auto flex flex-col justify-start items-center gap-1 mb-5'>
                 <p className={`w-auto font-bold text-5xl ${hoveredPost === -1 ? "z-20" : "z-0"}`}>Colin&apos;s blog</p>
             </div>
