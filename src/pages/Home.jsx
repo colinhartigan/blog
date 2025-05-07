@@ -18,7 +18,7 @@ export default function Home({}) {
             </div>
 
             {posts?.length > 0 && (
-                <div className='w-full max-w-screen-sm h-auto max-h-[60vh] flex flex-col justify-start items-center gap-2 overflow-auto'>
+                <div className='w-full max-w-screen-sm h-auto max-h-[60vh] flex flex-col justify-start items-center gap-2 overflow-auto box-border'>
                     {posts.map((entry, index) => {
                         const imageUrl = transformUrl(entry.image);
 
