@@ -44,7 +44,7 @@ Then, we drove to Big Bend with a pit stop at a state park with some sand dunes.
 
 Arriving at our campsite in Big Bend was really cool. It was like 1am and completely dark, but because it was so remote, the stars were super bright. Setting up our tents for the first time was a real challenge, but we were rewarded by the incredible views of the basin the next morning. Big Bend has some great hikes and we got so lucky with the weather not being too bad.
 
-After a couple days, we drove to the Guadalupe Mountains and had our first shower in 4 days. We did the Guadalupe peak hike in just under 5 hours which I'm really proud of. When we reached the peak, this super athletic dude was finishing his **sub-hour run to the peak** and was super excited. We think he set the new FKT. He was a search and rescue volunteer in NM and said he was squeezing in a quick run after working all morning on a cave rescue. He's one of the coolest people I've ever met.
+After a couple days, we drove to the Guadalupe Mountains and had our first shower in 4 days at some sketchy motel. We did the Guadalupe peak hike (9 miles/3000ft elev. gain) in just under 5 hours which I'm really proud of. When we reached the peak, this super athletic dude was finishing his sub-hour run to the peak and was super excited. We think he set the new FKT. He was a search and rescue volunteer in NM and said he was squeezing in a quick run after working all morning on a cave rescue. He's one of the coolest people I've ever met.
 
 Finally, we drove to the Carlsbad Caverns. Caves are so cool but I could never be a spelunker.
 
@@ -53,6 +53,8 @@ On our drive home we stopped in Dallas again to get some BBQ with Brennan and Ca
 It's only been 2 weeks since we got back but it already feels like it's been ages.
 
 ![canyons](/content/images/hello/canyons.jpeg)
+
+![hike](/content/images/hello/hike.jpeg)
 
 ## Summer
 
