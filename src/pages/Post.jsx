@@ -36,11 +36,11 @@ export default function Post({}) {
     return (
         <div className='w-full h-auto flex flex-col items-center justify-start'>
             {/* post content */}
-            <div className='max-w-screen-md min-w-screen-md h-full flex flex-col items-center justify-start px-5 mb-16'>
+            <div className='w-auto max-w-screen-md h-full flex flex-col items-center justify-start px-3 mb-16'>
                 <p className='w-full text-left font-normal text-xl italic'>{dayjs(date).format("MMMM D, YYYY")}</p>
                 {/* <div className='w-1/3 h-[1px] bg-stone-200 rounded-full' /> */}
                 <Markdown
-                    className='prose prose-lg prose-neutral mt-2 w-full h-auto'
+                    className='prose prose-md prose-neutral mt-2 w-full h-auto'
                     remarkPlugins={[remarkGfm]}
                     rehypePlugins={[rehypeRaw]}
                     urlTransform={transformUrl}
@@ -50,11 +50,8 @@ export default function Post({}) {
             </div>
 
             {/* footer */}
-            <div className='w-full max-w-screen-md h-auto flex flex-row items-center justify-between gap-5 mb-10 px-3'>
-                <NavLink
-                    className='cursor-pointer flex flex-row items-center justify-start gap-2'
-                    to={`/post/${prevPost?.title}`}
-                >
+            <div className='w-full max-w-screen-md min-w-screen-md h-auto flex flex-row items-center justify-between gap-5 mb-10 px-3'>
+                <NavLink className=' flex flex-row items-center justify-start gap-2' to={`/post/${prevPost?.title}`}>
                     {prevPost && (
                         <>
                             <MdKeyboardArrowLeft size={24} />

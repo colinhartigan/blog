@@ -61,7 +61,7 @@ export default function Home({}) {
 
                                         <p className='text-lg'>
                                             <Markdown
-                                                className='prose prose-lg prose-neutral mt-2 w-full h-auto'
+                                                className='prose prose-md prose-neutral mt-2 w-full h-auto'
                                                 remarkPlugins={[remarkGfm]}
                                                 rehypePlugins={[rehypeRaw]}
                                                 urlTransform={transformUrl}

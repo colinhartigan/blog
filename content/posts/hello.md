@@ -4,7 +4,7 @@
 
 # Hi
 
-If you're reading this, congratulations! I'm not planning on telling anyone about this for a while so either you found it _all by yourself_, you solved the puzzle, or I eventually folded.
+If you're reading this, congratulations! I'm not planning on telling anyone about this for a while so either you found it all by yourself, you solved the puzzle, or I eventually folded.
 
 I'm starting a blog. It totally feels like I'm bandwagoning Hudson and Eric on their awesome blogs (www.grillhudson.com and Eric's _Taipei Tales_ newsletter) but I do love the idea of having a a record and reflection of what's going on in my life.
 
