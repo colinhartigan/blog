@@ -36,11 +36,11 @@ export default function Post({}) {
     return (
         <div className='w-full h-auto flex flex-col items-center justify-start'>
             {/* post content */}
-            <div className='w-auto max-w-screen-md h-full flex flex-col items-center justify-start px-3 mb-16'>
+            <div className='max-w-screen-md w-full h-full flex flex-col items-center justify-start px-3 mb-16'>
                 <p className='w-full text-left font-normal text-xl italic'>{dayjs(date).format("MMMM D, YYYY")}</p>
                 {/* <div className='w-1/3 h-[1px] bg-stone-200 rounded-full' /> */}
                 <Markdown
-                    className='prose prose-md prose-neutral mt-2 w-full h-auto'
+                    className='prose prose-md prose-neutral mt-2 w-full h-auto max-w-none'
                     remarkPlugins={[remarkGfm]}
                     rehypePlugins={[rehypeRaw]}
                     urlTransform={transformUrl}

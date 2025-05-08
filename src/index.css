@@ -13,3 +13,7 @@
         color-scheme: dark;
     }
 } */
+
+body {
+    @apply bg-stone-50;
+}

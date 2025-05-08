@@ -14,7 +14,7 @@ function App() {
     return (
         <>
             <PostProvider>
-                <div className='min-w-screen h-auto w-screen flex flex-col justify-start items-center gap-5 bg-stone-50'>
+                <div className='min-w-screen h-auto w-screen flex flex-col justify-start items-center gap-5 '>
                     <Routes>
                         <Route index element={<Navigate to='/post' />} />
                         <Route path='post'>

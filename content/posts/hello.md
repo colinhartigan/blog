@@ -62,9 +62,9 @@ Summer really is right around the corner. I'm going to be alone in Houston which
 
 I remember feeling similarly nervous about being in Raleigh last year, but I met some really cool people and ended up having a lot of fun, so surely I'll be able to pull that off again.
 
-## Observation
+<!-- ## Observation
 
-I really like listening and learning. In one of Wintergatan's videos during the MMX days, he said something along the lines of "being the dumbest person in the room means you get to learn the most." It's not even a super epiphanic thought but it's stuck with me for years!
+I really like listening and learning. In one of Wintergatan's videos during the MMX days, he said something along the lines of "being the dumbest person in the room means you get to learn the most." It's not even a super epiphanic thought but it's stuck with me for years! -->
 
 ---
 

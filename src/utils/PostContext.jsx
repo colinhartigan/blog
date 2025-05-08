@@ -26,7 +26,8 @@ function PostProvider({ children }) {
                         json.content = lines.slice(4).join("\n");
 
                         // extract the first 40 characters after the 5th line
-                        json.excerpt = lines.slice(5).join("\n").split(" ").slice(0, 30).join(" ") + "...";
+                        json.excerpt = lines.slice(5).join("\n").split(" ").slice(0, 30).join(" ");
+                        json.excerpt += json.excerpt.length > 30 ? "..." : "";
 
                         resolve(json);
                     });
