@@ -51,6 +51,6 @@ We decided it wasn't worth trying to fix everything, so we instead grabbed a dre
 
 ## Thoughts
 
-It was kinda sad to see our bot that we spent 8 months creating get destroyed in 4 hours, but we knew that would happen when we signed up for this. I'm glad I did battlebots. I learned some very valuable skills in CAD, DFM, and electronics. But I'm not sure I'll do it again next year. It was _a lot_ of work to get everything done, and working on a bigger bot sounds cumbersome and stressful. I was talking to Avi about this, and he made the point that if he sets aside the same time, he would be able to be more productive on more interesting hobbies. Very valid.
+It was kinda sad to see our bot that we spent 8 months creating get destroyed in 4 hours, but we knew that would happen when we signed up for this. I'm glad I did battlebots. I learned some very valuable skills in CAD, DFM, and electronics. But I'm not sure I'll do it again next year. It was _a lot_ of work to get everything done, and working on a bigger bot sounds cumbersome and stressful. I was talking to Avi about this, and he made the point that if he sets aside the same time, he would be able to be more productive on hobbies he cares more about. I agree.
 
 ![my child](/content/images/battlebots/child.jpeg)

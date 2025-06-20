@@ -33,3 +33,7 @@ During the Texas trip, the Olympus broke. My guess is sand got in the shutter me
 In the midst of the tragedy, I ended up buying an old Canon SLR from the 2000s with a nice all-around lens from the 80s (which was just marginally more expensive than the Olympus 💀). So far, it's been a lot of fun to shoot with. I brought it to Alaska and am so excited to see the landscape shots I got with it. I have it here in Texas and am going to try my hand at some street photography soon.
 
 ![art](/content/images/photography/art.jpeg)
+
+#### update june 16
+
+Just ordered a fujifilm X-T30 II and some lenses. Super excited. As fun as film photography is I don't think I'll be able to grow and learn the same way I could on digital.
