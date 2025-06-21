@@ -19,3 +19,4 @@ I'm gonna update this post during the summer...
 
 -   1.05mi 9:07 pace
 -   2.4mi 10:08 pace
+-   1.31mi 8:57 pace
