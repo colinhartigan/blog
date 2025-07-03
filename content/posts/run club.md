@@ -20,3 +20,16 @@ I'm gonna update this post during the summer...
 -   1.05mi 9:07 pace
 -   2.4mi 10:08 pace
 -   1.31mi 8:57 pace
+
+### Week 3
+
+-   0.67mi 9:25 pace
+-   1.23mi 8:51 pace
+-   2.39mi 9:32 pace
+-   3.00mi 10:29 pace (first 5k!)
+
+### Week 4
+
+ankle injured :(
+
+### Week 5
