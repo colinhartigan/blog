@@ -1,6 +1,6 @@
-| date      | title               | blurb               | image                        |
-| --------- | ------------------- | ------------------- | ---------------------------- |
-| 6/12/2025 | I joined a run club | follow me on strava | /content/images/photography/ |
+| date      | title               | blurb               | image                           |
+| --------- | ------------------- | ------------------- | ------------------------------- |
+| 6/12/2025 | I joined a run club | follow me on strava | /content/images/runclub/5k.jpeg |
 
 # I joined a run club
 

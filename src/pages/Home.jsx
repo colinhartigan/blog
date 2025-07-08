@@ -1,11 +1,11 @@
-import { motion } from "motion/react";
-import React, { useContext, useState } from "react";
-import Markdown from "react-markdown";
-import { NavLink } from "react-router";
-import rehypeRaw from "rehype-raw";
-import remarkGfm from "remark-gfm";
-import { PostContext } from "../utils/PostContext";
-import { transformUrl } from "../utils/utils";
+import { motion } from 'motion/react';
+import React, { useContext, useState } from 'react';
+import Markdown from 'react-markdown';
+import { NavLink } from 'react-router';
+import rehypeRaw from 'rehype-raw';
+import remarkGfm from 'remark-gfm';
+import { PostContext } from '../utils/PostContext';
+import { transformUrl } from '../utils/utils';
 
 export default function Home({}) {
     const [hoveredPost, setHoveredPost] = useState(-1);
@@ -14,7 +14,7 @@ export default function Home({}) {
     return (
         <div className='w-full h-screen flex flex-col justify-center items-center gap-5 p-5 overflow-hidden box-border'>
             <div className='w-full h-auto flex flex-col justify-start items-center gap-1 mb-5'>
-                <p className={`w-auto font-bold text-5xl ${hoveredPost === -1 ? "z-20" : "z-0"}`}>Colin&apos;s blog</p>
+                <p className={`w-auto font-bold text-5xl ${hoveredPost === -1 ? 'z-20' : 'z-0'}`}>Colin&apos;s blog</p>
             </div>
 
             {posts?.length > 0 && (
@@ -31,9 +31,9 @@ export default function Home({}) {
                                     className='w-full h-full absolute top-0 left-0'
                                     style={{
                                         backgroundImage: `url('${imageUrl}')`,
-                                        backgroundSize: "cover",
-                                        backgroundPosition: "center",
-                                        filter: "blur(10px) grayscale(1) sepia(0.2)",
+                                        backgroundSize: 'cover',
+                                        backgroundPosition: 'center',
+                                        filter: 'blur(5px) grayscale(1) sepia(0.1)',
                                         zIndex: 0,
                                     }}
                                 />
@@ -45,7 +45,7 @@ export default function Home({}) {
                                     animate={{
                                         opacity:
                                             (index === hoveredPost && hoveredPost !== -1) || hoveredPost === -1 ? 1 : 0,
-                                        backgroundColor: index === hoveredPost ? "white" : "transparent",
+                                        backgroundColor: index === hoveredPost ? 'white' : 'transparent',
                                     }}
                                     transition={{ duration: 0.05 }}
                                 >
