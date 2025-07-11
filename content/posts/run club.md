@@ -8,7 +8,7 @@ and enjoyed it?? I've always been pretty apprehensive with running for fun/as a 
 
 ![5k](/content/images/runclub/5k.jpeg)
 
-I'm setting a goal for myself to run a 5K at like 9 minute pace at school next year with my buddy Will! I think this'll be pretty big for my physical and mental health - I often find it pretty hard to set goals for myself and stick to them, but putting it in writing on here will probably make me stick to it.
+I'm setting a goal for myself to run a 5K at 8 minute pace at school next year with my buddy Will! I think this'll be pretty big for my physical and mental health - I often find it pretty hard to set goals for myself and stick to them, but putting it in writing on here will probably make me stick to it.
 
 I'm gonna update this post during the summer...
 
