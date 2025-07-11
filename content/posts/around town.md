@@ -1,8 +1,8 @@
-| date      | title                   | blurb                                          | image                                         |
-| --------- | ----------------------- | ---------------------------------------------- | --------------------------------------------- |
-| 4/29/2025 | Bringin' it around town | remembered I can just do stuff whenever I want | /content/images/free%20will/streetsalive.jpeg |
+| date      | title            | blurb                                          | image                                         |
+| --------- | ---------------- | ---------------------------------------------- | --------------------------------------------- |
+| 4/29/2025 | Talk of the town | remembered I can just do stuff whenever I want | /content/images/free%20will/streetsalive.jpeg |
 
-# Bringin' it around town
+# Talk of the town
 
 I've explored more of Atlanta in the last week than I have in the rest of my 3 years here. It started when I was procrastinating studying for my networking final - the weather outside was gorgeous, and I felt like going for a bike ride. My plan was to bike over to Piedmont Park, check out some of the deeper parts of the park I've never explored, then come home. I was planning like 5 miles max.
 

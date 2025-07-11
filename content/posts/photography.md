@@ -30,9 +30,9 @@ I really like taking pictures. I really like capturing little moments of my frie
 
 During the Texas trip, the Olympus broke. My guess is sand got in the shutter mechanisms and jammed it all up. I tried taking it apart to figure out what was worng but couldn't figure it out, but I want to spend some more time when I go back to school to try and fix it.
 
-In the midst of the tragedy, I ended up buying an old Canon SLR from the 2000s with a nice all-around lens from the 80s (which was just marginally more expensive than the Olympus 💀). So far, it's been a lot of fun to shoot with. I brought it to Alaska and am so excited to see the landscape shots I got with it. I have it here in Texas and am going to try my hand at some street photography soon.
+In the midst of the tragedy, I ended up buying an old Canon SLR from the 2000s with a nice all-around lens from the 90s (which was just marginally more expensive than the Olympus 💀). So far, it's been a lot of fun to shoot with. I brought it to Alaska and am so excited to see the landscape shots I got with it. I have it here in Texas and am going to try my hand at some street photography soon.
 
-![art](/content/images/photography/art.jpeg)
+![art?](/content/images/photography/art.jpeg)
 
 #### update june 16
 
