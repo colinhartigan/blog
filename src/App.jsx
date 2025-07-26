@@ -1,11 +1,11 @@
-import dayjs from "dayjs";
-import duration from "dayjs/plugin/duration";
-import relativeTime from "dayjs/plugin/relativeTime";
-import { Navigate, Route, Routes } from "react-router";
-import Nav from "./components/Nav";
-import Home from "./pages/Home";
-import Post from "./pages/Post";
-import { PostProvider } from "./utils/PostContext";
+import dayjs from 'dayjs';
+import duration from 'dayjs/plugin/duration';
+import relativeTime from 'dayjs/plugin/relativeTime';
+import { Navigate, Route, Routes } from 'react-router';
+import Nav from './components/Nav';
+import Home from './pages/Home.jsx.new';
+import Post from './pages/Post';
+import { PostProvider } from './utils/PostContext';
 
 dayjs.extend(relativeTime);
 dayjs.extend(duration);
