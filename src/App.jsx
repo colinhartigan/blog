@@ -3,7 +3,7 @@ import duration from 'dayjs/plugin/duration';
 import relativeTime from 'dayjs/plugin/relativeTime';
 import { Navigate, Route, Routes } from 'react-router';
 import Nav from './components/Nav';
-import Home from './pages/Home.jsx.new';
+import Home from './pages/Home.jsx';
 import Post from './pages/Post';
 import { PostProvider } from './utils/PostContext';
 
