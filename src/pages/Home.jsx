@@ -8,7 +8,7 @@ export default function Home({}) {
     return (
         <div className='w-full h-screen flex flex-col justify-center items-center gap-5 p-5 overflow-hidden box-border'>
             {posts?.length > 0 && (
-                <div className='w-full max-w-screen-xl h-full max-h-full flex flex-col justify-start items-center gap-2 overflow-auto box-border'>
+                <div className='w-full max-w-(--breakpoint-xl) h-full max-h-full flex flex-col justify-start items-center gap-2 overflow-auto box-border'>
                     {posts.map((entry, index) => {
                         const imageUrl = transformUrl(entry.image);
 
