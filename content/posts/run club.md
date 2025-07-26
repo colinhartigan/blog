@@ -14,21 +14,21 @@ I'm gonna update this post during the summer...
 
 ### Week 1
 
--   0.64mi 7:44 pace
--   2.01mi 9:43 pace
+-   0.64mi 7:44
+-   2.01mi 9:43
 
 ### Week 2
 
--   1.05mi 9:07 pace
--   2.4mi 10:08 pace
--   1.31mi 8:57 pace
+-   1.05mi 9:07
+-   2.4mi 10:08
+-   1.31mi 8:57
 
 ### Week 3
 
--   0.67mi 9:25 pace
--   1.23mi 8:51 pace
--   2.39mi 9:32 pace
--   3.00mi 10:29 pace (first 5k!)
+-   0.67mi 9:25
+-   1.23mi 8:51
+-   2.39mi 9:32
+-   3.00mi 10:29 (first 5k!)
 
 ### Week 4
 
@@ -39,3 +39,6 @@ ankle injured :(
 still recovering :( couple long walks though
 
 ### Week 6
+
+-   1.73mi 9:12
+-   2.39mi 10:05
