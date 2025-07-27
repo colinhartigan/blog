@@ -1,6 +1,6 @@
-| date      | title      | blurb                         | image                                |
-| --------- | ---------- | ----------------------------- | ------------------------------------ |
-| 4/15/2025 | Battle bob | crazy weapon on weapon action | /content/images/battlebots/bots.jpeg |
+| date      | title      | blurb                         | image                                         |
+| --------- | ---------- | ----------------------------- | --------------------------------------------- |
+| 4/15/2025 | Battle bob | crazy weapon on weapon action | /content/images/04152025_battlebots/bots.jpeg |
 
 # Battle bob
 
@@ -14,7 +14,7 @@ Starting last Thursday, we had an assembly marathon to get the bot ready for fig
 
 On Friday night (saturday morning? it was 2am...), after spending all day soldering our electronics and assembling the bot, we did our first weapon spin-up test. We put the bot in the box and turned it on, and a few seconds later, it caught on fire. This hurt. Thankfully, it was only our drive controller and not the battery, and Ryan was able to get his hand out of the box just before it caught on fire. The damage could've been so much worse but, man, I was so defeated.
 
-![fire](/content/images/battlebots/fire.jpeg)
+![fire](/content/images/04152025_battlebots/fire.jpeg)
 
 On Saturday, we locked the fuck in and rebuilt - finally finishing at 3am on Sunday after 30 hours of work over 3 days.
 
@@ -22,19 +22,19 @@ On Saturday, we locked the fuck in and rebuilt - finally finishing at 3am on Sun
 
 Our first fight was against a u(sic)GA vertical spinner called Whiteboard. It was a cool bot in theory, but we learned that their waterjet was broken so they weren't able to manufacture their bottom plate and instead used PLA and their weapon was having problems. This was a swift victory.
 
-![whiteboard](/content/images/battlebots/whiteboard.jpeg)
+![whiteboard](/content/images/04152025_battlebots/whiteboard.jpeg)
 
 ## 2. AIM BOT
 
 Despite the cool name, this bot was a toy with some plastic dart projectiles and a dremmel blade. On the first impact, we took out their weapon and they tapped out. ez dub
 
-![aimbot](/content/images/battlebots/aimbot.jpeg)
+![aimbot](/content/images/04152025_battlebots/aimbot.jpeg)
 
 ## 3. Anomalv
 
 Our first formidable opponent was created by our mentor, Ryan. The 5th iteration of his 3lb design, this thing is a beast and hits super hard - it ended up getting 2nd in the competition. With me in the driver's seat, I played very aggressive and even got Ryan into a pin! Since Ryan is a little bitch, he handed off the controller to Jaques, a really good driver, who then destroyed us. Despite the carnage, it was a super fun fight.
 
-![anomalv](/content/images/battlebots/anomalv.jpeg)
+![anomalv](/content/images/04152025_battlebots/anomalv.jpeg)
 
 ## 4. Yeetus
 
@@ -47,10 +47,10 @@ Following the fight with Anomalv, we assessed the damage:
 
 We decided it wasn't worth trying to fix everything, so we instead grabbed a dremmel and went to town on the TPU walls to make a slot for a wedge Ryan donated to us. It was super jank but we'd at least be able to "fight" against Yeetus. We told the driver to go ham and go for big hits on us. He KO'd us, as expected, and our tournament run was over.
 
-![janky](/content/images/battlebots/jank.jpeg)
+![janky](/content/images/04152025_battlebots/jank.jpeg)
 
 ## Thoughts
 
 It was kinda sad to see our bot that we spent 8 months creating get destroyed in 4 hours, but we knew that would happen when we signed up for this. I'm glad I did battlebots. I learned some very valuable skills in CAD, DFM, and electronics. But I'm not sure I'll do it again next year. It was _a lot_ of work to get everything done, and working on a bigger bot sounds cumbersome and stressful. I was talking to Avi about this, and he made the point that if he sets aside the same time, he would be able to be more productive on hobbies he cares more about. I agree.
 
-![my child](/content/images/battlebots/child.jpeg)
+![my child](/content/images/04152025_battlebots/child.jpeg)

@@ -1,7 +1,7 @@
 import dayjs from 'dayjs';
 import duration from 'dayjs/plugin/duration';
 import relativeTime from 'dayjs/plugin/relativeTime';
-import { Navigate, Route, Routes } from 'react-router';
+import { Route, Routes } from 'react-router';
 import Nav from './components/Nav';
 import Home from './pages/Home.jsx';
 import Post from './pages/Post';
@@ -16,9 +16,9 @@ function App() {
             <PostProvider>
                 <div className='min-w-screen h-auto w-screen flex flex-col justify-start items-center gap-5 '>
                     <Routes>
-                        <Route index element={<Navigate to='/post' />} />
+                        <Route index element={<Home />} />
                         <Route path='post'>
-                            <Route index element={<Home />} />
+                            {/* <Route index element={<Home />} /> */}
                             <Route
                                 path=':postId'
                                 element={

@@ -1,5 +1,5 @@
 import dayjs from 'dayjs';
-import { useContext } from 'react';
+import { useContext, useEffect } from 'react';
 import { NavLink } from 'react-router';
 import { PostContext } from '../utils/PostContext';
 import { transformUrl } from '../utils/utils';
@@ -7,16 +7,32 @@ import { transformUrl } from '../utils/utils';
 export default function Home({}) {
     const { posts } = useContext(PostContext);
 
+    useEffect(() => {
+        // get the post we should scroll to from the # hash in the URL
+        const hash = window.location.hash.slice(3);
+        console.log(hash);
+        if (hash) {
+            const postElement = document.getElementById(hash);
+            if (postElement) {
+                postElement.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    }, []);
+
     return (
         <div className='w-full h-screen flex flex-col justify-center items-center gap-5 p-5 overflow-hidden box-border'>
             {posts?.length > 0 && (
-                <div className='w-full max-w-full h-full max-h-full flex flex-col justify-start items-center gap-5 overflow-x-hidden box-border'>
+                <div className='w-full max-w-full h-full max-h-full flex flex-col justify-start items-center gap-5 overflow-x-hidden box-border snap-y snap-mandatory'>
                     {posts.map((entry, index) => {
                         const imageUrl = transformUrl(entry.image);
 
                         return (
-                            <div className='relative min-h-full min-w-full max-w-full max-h-full ' key={index}>
+                            <div
+                                className='relative min-h-full min-w-full max-w-full max-h-full snap-start snap-always'
+                                key={index}
+                            >
                                 <NavLink
+                                    id={entry.id}
                                     className='relative w-full h-full max-w-full max-h-full flex flex-col justify-start items-start z-20'
                                     to={`/post/${entry.id}`}
                                     key={index}

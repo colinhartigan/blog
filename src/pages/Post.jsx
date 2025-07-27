@@ -1,19 +1,19 @@
-import dayjs from "dayjs";
-import { useContext, useEffect, useState } from "react";
-import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
-import Markdown from "react-markdown";
-import { NavLink, useParams } from "react-router";
-import rehypeRaw from "rehype-raw";
-import remarkGfm from "remark-gfm";
-import { PostContext } from "../utils/PostContext";
-import { transformUrl } from "../utils/utils";
+import dayjs from 'dayjs';
+import { useContext, useEffect, useState } from 'react';
+import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md';
+import Markdown from 'react-markdown';
+import { NavLink, useParams } from 'react-router';
+import rehypeRaw from 'rehype-raw';
+import remarkGfm from 'remark-gfm';
+import { PostContext } from '../utils/PostContext';
+import { transformUrl } from '../utils/utils';
 
 export default function Post({}) {
     const { posts } = useContext(PostContext);
     const postId = useParams().postId;
 
-    const [content, setContent] = useState("");
-    const [date, setDate] = useState("4/18/2004");
+    const [content, setContent] = useState('');
+    const [date, setDate] = useState('4/18/2004');
 
     const [nextPost, setNextPost] = useState(null);
     const [prevPost, setPrevPost] = useState(null);
@@ -28,8 +28,8 @@ export default function Post({}) {
 
     useEffect(() => {
         const post = posts.find((entry) => entry.title === postId);
-        setContent(post?.content || "");
-        setDate(post?.date || "4/18/2004");
+        setContent(post?.content || '');
+        setDate(post?.date || '4/18/2004');
         window.scrollTo(0, 0);
     }, [postId, posts]);
 
@@ -37,7 +37,7 @@ export default function Post({}) {
         <div className='w-full h-auto flex flex-col items-center justify-start'>
             {/* post content */}
             <div className='max-w-(--breakpoint-md) w-full h-full flex flex-col items-center justify-start px-3 mb-16'>
-                <p className='w-full text-left font-normal text-xl italic'>{dayjs(date).format("MMMM D, YYYY")}</p>
+                <p className='w-full text-left font-normal text-xl italic'>{dayjs(date).format('MMMM D, YYYY')}</p>
                 {/* <div className='w-1/3 h-px bg-stone-200 rounded-full' /> */}
                 <Markdown
                     className='prose prose-md prose-neutral mt-2 w-full h-auto max-w-none'
