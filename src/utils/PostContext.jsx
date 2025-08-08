@@ -1,5 +1,5 @@
-import { createContext, useEffect, useState } from "react";
-import { mdTableJson } from "../utils/utils";
+import { createContext, useEffect, useState } from 'react';
+import { mdTableJson } from '../utils/utils';
 
 const PostContext = createContext();
 
@@ -17,17 +17,17 @@ function PostProvider({ children }) {
                     .then((res) => res.text())
                     .then((text) => {
                         // the first line is the date and the second line is the title
-                        const lines = text.split("\n");
-                        const metadata = lines.slice(0, 4).join("\n");
+                        const lines = text.split('\n');
+                        const metadata = lines.slice(0, 4).join('\n');
 
                         let json = mdTableJson(metadata);
                         console.log(json);
 
-                        json.content = lines.slice(4).join("\n");
+                        json.content = lines.slice(4).join('\n');
 
                         // extract the first 40 characters after the 5th line
-                        json.excerpt = lines.slice(5).join("\n").split(" ").slice(0, 30).join(" ");
-                        json.excerpt += json.excerpt.length > 30 ? "..." : "";
+                        json.excerpt = lines.slice(5).join('\n').split(' ').slice(0, 30).join(' ');
+                        json.excerpt += json.excerpt.length > 30 ? '...' : '';
 
                         resolve(json);
                     });
@@ -35,7 +35,7 @@ function PostProvider({ children }) {
         }
 
         async function fetchEntries() {
-            const files = Object.values(import.meta.glob("/content/posts/*.md", { eager: true, import: "default" }));
+            const files = Object.values(import.meta.glob('/content/posts/*.md', { eager: true, import: 'default' }));
             let entries = [];
             for (let path of files) {
                 await process(path).then((entry) => {
