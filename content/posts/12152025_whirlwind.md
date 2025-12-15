@@ -1,6 +1,6 @@
-| date       | title     | blurb                                   | image                                          |
-| ---------- | --------- | --------------------------------------- | ---------------------------------------------- |
-| 12/13/2025 | Whirlwind | bit off more than i can chew? nonsense. | /content/images/12152025_whirlwind/subway.jpeg |
+| date       | title     | blurb                                   | image                                        |
+| ---------- | --------- | --------------------------------------- | -------------------------------------------- |
+| 12/13/2025 | Whirlwind | bit off more than i can chew? nonsense. | /content/images/12152025_whirlwind/road.jpeg |
 
 # Whirlwind
 
