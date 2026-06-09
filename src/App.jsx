@@ -14,7 +14,7 @@ function App() {
     return (
         <>
             <PostProvider>
-                <div className='min-w-screen h-auto w-screen flex flex-col justify-start items-center gap-5 '>
+                <div className='w-full min-w-0 h-auto flex flex-col justify-start items-center gap-5'>
                     <Routes>
                         <Route index element={<Home />} />
                         <Route path='post'>

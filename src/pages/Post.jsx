@@ -50,7 +50,7 @@ export default function Post({}) {
             </div>
 
             {/* footer */}
-            <div className='w-full max-w-(--breakpoint-md) min-w-screen-md h-auto flex flex-row items-center justify-between gap-5 mb-10 px-3'>
+            <div className='w-full max-w-(--breakpoint-md) min-w-0 h-auto flex flex-row items-center justify-between gap-5 mb-10 px-3'>
                 <NavLink className=' flex flex-row items-center justify-start gap-2' to={`/post/${prevPost?.title}`}>
                     {prevPost && (
                         <>
